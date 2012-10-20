@@ -8,7 +8,7 @@ public class nPMMailTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		nPMSendMail npm = new nPMSendMail();
-		npm.setMail("doubletaken@gmail.com");
+		npm.setMail("tjddntlr2280@gmail.com");
 		npm.getProperty();
 		npm.sendMail();
 	}

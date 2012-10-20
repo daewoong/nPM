@@ -36,7 +36,7 @@ public class nPMSendMailTLSTest {
  
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress(nPMManager.EMAIL));
-			message.setRecipients(Message.RecipientType.TO,InternetAddress.parse("doubletaken@gmail.com"));
+			message.setRecipients(Message.RecipientType.TO,InternetAddress.parse("tjddntlr2280@gmail.com"));
 			message.setSubject(nPMManager.SUBJECT);
 			message.setText(nPMManager.TEXT);
  
